@@ -19,11 +19,6 @@ h2 {
   margin-bottom: 5px;
 }
 
-table tr td img {
-  width: 150px;
-  max-width: 100%;
-}
-
 // default/basic styles
 .container {
   padding: 90px 15px;
@@ -40,6 +35,12 @@ table tr td img {
     border: 1px solid #ff0000;
     padding: 12px 8px;
   }
+  table tr td {
+    img {
+      width: 150px;
+      max-width: 100%;
+    }
+  }
 }
 
 // example 1
@@ -47,5 +48,35 @@ table tr td img {
   background-color: #bdd6ff;
   table tr th {
     text-align: left;
+  }
+}
+
+// example 2
+.example-2 {
+  background-color: #cfffdb;
+  table {
+    text-align: center;
+  }
+}
+
+// example 3
+.example-3 {
+  background-color: #fedccc;
+  table {
+    text-align: right;
+  }
+}
+
+// example 4
+.example-4 {
+  background-color: #e6b5ff;
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    img {
+      border: 1px solid #c95eff;
+      padding: 0.25rem;
+      margin: 4px;
+    }
   }
 }

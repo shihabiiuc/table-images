@@ -23,11 +23,6 @@ h2 {
   margin-bottom: 5px;
 }
 
-table tr td img {
-  width: 150px;
-  max-width: 100%;
-}
-
 .container {
   padding: 90px 15px;
 }
@@ -43,10 +38,41 @@ table tr td img {
   border: 1px solid #ff0000;
   padding: 12px 8px;
 }
+.container table tr td img {
+  width: 150px;
+  max-width: 100%;
+}
 
 .example-1 {
   background-color: #bdd6ff;
 }
 .example-1 table tr th {
   text-align: left;
+}
+
+.example-2 {
+  background-color: #cfffdb;
+}
+.example-2 table {
+  text-align: center;
+}
+
+.example-3 {
+  background-color: #fedccc;
+}
+.example-3 table {
+  text-align: right;
+}
+
+.example-4 {
+  background-color: #e6b5ff;
+}
+.example-4 .content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.example-4 .content img {
+  border: 1px solid #c95eff;
+  padding: 0.25rem;
+  margin: 4px;
 }/*# sourceMappingURL=style.css.map */
